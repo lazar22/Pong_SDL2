@@ -23,5 +23,4 @@ void game::draw_rect(SDL_FRect rect, SDL_Color color) const {
 
 void game::draw_circle(SDL_Rect circle, SDL_Color color) const {
     SDL_SetRenderDrawColor(renderer, color.r, color.g, color.b, color.a);
-    SDL_RenderFill
 }
